@@ -1,0 +1,22 @@
+{
+  "name": "express-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "_moduleAliases": {
+    "@controllers": "./app/Controllers",
+    "@deep": "src/some/very/deep/directory/or/file",
+    "@my_module": "lib/some-file.js",
+    "something": "src/foo"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "module-alias": "^2.1.0"
+  }
+}
